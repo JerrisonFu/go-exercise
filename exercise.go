@@ -5,6 +5,7 @@ import (
 	"exercise/concurrency"
 	"exercise/functions"
 	"exercise/oop"
+	"exercise/stdlib"
 )
 
 func main() {
@@ -19,4 +20,7 @@ func main() {
 
 	println("\n=== Concurrency ===")
 	concurrency.RunAll()
+
+	println("\n=== Stdlib ===")
+	stdlib.RunAll()
 }
