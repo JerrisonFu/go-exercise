@@ -3,6 +3,7 @@ package main
 import (
 	"exercise/basics"
 	"exercise/concurrency"
+	"exercise/database"
 	"exercise/functions"
 	"exercise/network"
 	"exercise/oop"
@@ -27,4 +28,7 @@ func main() {
 
 	println("\n=== Network ===")
 	network.RunAll()
+
+	println("\n=== Database ===")
+	database.RunAll()
 }
