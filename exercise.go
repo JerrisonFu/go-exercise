@@ -1,6 +1,7 @@
 package main
 
 import (
+	"exercise/api"
 	"exercise/basics"
 	"exercise/concurrency"
 	"exercise/database"
@@ -35,4 +36,7 @@ func main() {
 
 	println("\n=== Web (Gin) ===")
 	web.RunAll()
+
+	println("\n=== RESTful API ===")
+	api.RunAll()
 }
