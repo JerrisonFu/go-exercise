@@ -8,6 +8,7 @@ import (
 	"exercise/network"
 	"exercise/oop"
 	"exercise/stdlib"
+	"exercise/web"
 )
 
 func main() {
@@ -31,4 +32,7 @@ func main() {
 
 	println("\n=== Database ===")
 	database.RunAll()
+
+	println("\n=== Web (Gin) ===")
+	web.RunAll()
 }
