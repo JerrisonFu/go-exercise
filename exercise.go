@@ -9,6 +9,7 @@ import (
 	"exercise/network"
 	"exercise/oop"
 	"exercise/stdlib"
+	"exercise/testing"
 	"exercise/web"
 )
 
@@ -39,4 +40,7 @@ func main() {
 
 	println("\n=== RESTful API ===")
 	api.RunAll()
+
+	println("\n=== Testing & Optimization ===")
+	testing.RunAll()
 }
