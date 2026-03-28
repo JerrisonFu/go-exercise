@@ -4,6 +4,7 @@ import (
 	"exercise/basics"
 	"exercise/concurrency"
 	"exercise/functions"
+	"exercise/network"
 	"exercise/oop"
 	"exercise/stdlib"
 )
@@ -23,4 +24,7 @@ func main() {
 
 	println("\n=== Stdlib ===")
 	stdlib.RunAll()
+
+	println("\n=== Network ===")
+	network.RunAll()
 }
